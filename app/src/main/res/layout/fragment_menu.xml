@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_fragment_menu"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".view.MenuFragment">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="218dp"
+        android:layout_gravity="center"
+        android:background="@drawable/betmatch" />
+
+    <TextView
+        android:id="@+id/id_menu_tables"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="таблица"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/id_menu_news"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="новости"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/id_menu_statistics"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="статистика"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/id_menu_settings"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="настройки"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/id_fragment_table"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".view.TableFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="страна"
+        android:id="@+id/id_strana_title"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:background="@color/white"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="20dp"
+            android:gravity="center"
+            android:text="№"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="140dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="команда"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="И"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="В"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Н"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="П"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Мячи"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="О"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="400dp"
+        android:id="@+id/id_rv_table"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:background="@color/white"
+        tools:listitem="@layout/item_table"
+        android:layout_marginLeft="5dp"
+        android:layout_height="400dp"/>
+
+    
+
+</LinearLayout>

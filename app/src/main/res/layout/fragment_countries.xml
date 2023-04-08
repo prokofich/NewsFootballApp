@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/id_fragment_countries"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".view.CountriesFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/id_tables_title"
+        android:text="таблицы"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        android:textStyle="italic"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/id_tables_russia"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="РОССИЯ"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/id_tables_england"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="АНГЛИЯ"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/id_tables_germany"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="ГЕРМАНИЯ"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/id_tables_spaney"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:background="#fe6300"
+        android:text="ИСПАНИЯ"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="100dp"/>
+
+
+
+</LinearLayout>

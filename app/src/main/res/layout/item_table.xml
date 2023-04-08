@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_marginLeft="5dp"
+    android:orientation="horizontal"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="20dp"
+        android:id="@+id/id_item_table_number"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="1"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="140dp"
+        android:textStyle="bold"
+        android:id="@+id/id_item_table_name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="манчестер юнайтед"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="30dp"
+        android:id="@+id/id_item_table_game"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="19"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="30dp"
+
+        android:id="@+id/id_item_table_win"
+        android:gravity="center"
+        android:textColor="#02d657"
+        android:text="12"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="30dp"
+        android:id="@+id/id_item_table_draw"
+        android:gravity="center"
+        android:textColor="#5b6760"
+        android:text="5"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="30dp"
+        android:id="@+id/id_item_table_loss"
+        android:gravity="center"
+        android:textColor="#f50e0e"
+        android:text="2"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/id_item_table_ball"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="43-15"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/id_item_table_points"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="19"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

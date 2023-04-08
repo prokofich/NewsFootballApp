@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_fragment_settings"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".view.SettingsFragment">
+
+    <TextView
+        android:id="@+id/id_settings_title"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="настройки"
+        android:textColor="@color/white"
+        android:textSize="80dp"
+        android:textStyle="italic"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/id_settings_notif"
+            android:layout_width="304dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="45dp"
+            android:text="уведомления"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="304dp"
+            android:gravity="center"
+            android:id="@+id/id_settings_black"
+            android:textStyle="italic"
+            android:textSize="45dp"
+            android:text="черная тема"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:id="@+id/id_settings_switch_black"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="304dp"
+            android:gravity="center"
+            android:id="@+id/id_settings_back"
+            android:textStyle="italic"
+            android:textSize="45dp"
+            android:text="обои"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:text="change"
+            android:id="@+id/id_settings_button_change"
+            android:textStyle="italic"
+            android:backgroundTint="#fe6300"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

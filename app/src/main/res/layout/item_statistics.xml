@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_marginLeft="5dp"
+    android:orientation="horizontal"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="50dp"
+        android:id="@+id/id_stat_number"
+        android:gravity="center"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="100dp"
+        android:id="@+id/id_stat_team"
+        android:text="саутгемптон"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:id="@+id/id_stat_turnir"
+        android:textColor="@color/black"
+        android:text="франция 1"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="82dp"
+        android:gravity="center"
+        android:text="13.3"
+        android:id="@+id/id_stat_udari"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/id_stat_otbori"
+        android:gravity="center"
+        android:text="20.1"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
